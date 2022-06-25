@@ -1,0 +1,5 @@
+mail:
+  host: ${EMAIL_HOST:10.130.11.38}
+  port: ${EMAIL_PORT:25}
+  from: ${EMAIL_USERNAME:Mahammad.Alishov@unibank.az}
+  title: ${EMAIL_TITLE:My Company}

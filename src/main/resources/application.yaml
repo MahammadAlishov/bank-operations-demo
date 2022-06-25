@@ -1,0 +1,18 @@
+server:
+  port: 8998
+  servlet:
+    context-path: /api
+
+spring:
+  profiles:
+    include:
+      - common
+  datasource:
+    username: postgres
+    password: A123456a
+    url: jdbc:postgresql://dev-postgres-01.unibank.lan/test
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
